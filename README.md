@@ -1,2 +1,2 @@
 # html-css-js-practices
-I am learning html, css and javacript. Mini projects with demo.
+Mini projects with demo. I am learning html, css and javacript. 
