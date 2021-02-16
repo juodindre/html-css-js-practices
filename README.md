@@ -3,7 +3,7 @@
 _Live preview: [homepage](https://juodindre.github.io/html-css-js-practices/)_
 
 ## 01 Background color change on click button
-> Live preview: [01 Background color change on click button](https://jsfiddle.net/juodindre/yk3L4nm1/2/)
+> Live preview: [01 Background color change on click button](https://juodindre.github.io/html-css-js-practices/01_Background_color_change_on_click_button/index.html)
 >
 > `Html` `CSS` `JS`
 >
