@@ -1,5 +1,6 @@
 # HTML / CSS / JS practices
-Mini projects with live previews. <br>My learning code sandbox.
+### Mini projects with live previews. <br>My learning code sandbox. <br>
+_Live preview: [homepage](https://juodindre.github.io/html-css-js-practices/)_
 
 ## 01 Background color change on click button
 > Live preview: [01 Background color change on click button](https://jsfiddle.net/juodindre/yk3L4nm1/2/)
