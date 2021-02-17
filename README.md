@@ -2,7 +2,7 @@
 ### Mini projects with live previews. <br>My learning code sandbox. <br>
 > Live preview: [index.html](https://juodindre.github.io/html-css-js-practices/)
 
-## 01 - background color change on click button
+## 01 - TESTING folder
 > Live preview: [01 - background color change on click button](https://juodindre.github.io/html-css-js-practices/01_Background_color_change_on_click_button/index.html)
 >
 > `Html` `CSS` `JS`
