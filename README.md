@@ -2,7 +2,7 @@
 ### Mini projects with live previews. <br>My learning code sandbox. <br>
 > Live preview: [index.html](https://juodindre.github.io/html-css-js-practices/)
 
-## 01 Turn on-off bulb
+## 01 Turn on/off bulb
 > Live preview: [01 Turn on-off bulb](https://juodindre.github.io/html-css-js-practices/01_Turn_on_or_off_bulb/index.html)
 >
 > `Html` `CSS` `JS`
