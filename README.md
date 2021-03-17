@@ -7,5 +7,5 @@
 #### 02 Calculator | [Live preview](https://juodindre.github.io/html-css-js-practices/02_Calculator/index.html)
 > `Html` `CSS` `JS`
 
-#### 03 Clock | [Live preview](https://juodindre.github.io/html-css-js-practices/03_Clock/index.html)
+#### 03  | [Live preview]()
 > `Html` `CSS` `JS`
