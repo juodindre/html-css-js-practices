@@ -394,20 +394,46 @@ console.log(myOutfit());
 console.log(outerWear);
 
 // 1:02:40​ Return a Value from a Function
-/*Example*/
-console.log();
+function minusSeven(num) {
+    return num - 7;
+}
+console.log(minusSeven(10));
 
-// 1:03:55​ Undefined Value returned
-/*Example*/
-console.log();
+function timesFive(num) {
+    return num * 5;
+}
+console.log(timesFive(5));
+
+// 1:03:55​ Understanding Undefined Value returned from a Function
+var sum = 0;
+function addThree() {
+    sum = sum + 3;
+}
+
+function addFive() {
+    sum += 5;
+}
+console.log(addFive);
 
 // 1:04:52​ Assignment with a Returned Value
-/*Example*/
-console.log();
+var changed = 0;
+function change(num) {
+    return (num + 5) / 3
+}
+changed = change(10);
 
-// 1:05:52​ Stand in Line /*NUO cia pradeti freebootcamp uzduotis daryti*/
-/*Example*/
-console.log();
+var processed = 0;
+function processArg(num) {
+    return (num + 3) / 5;
+}
+processed = processArg(7);
+
+// 1:05:52​ Stand in Line
+function nextInLine(arr, item) {
+
+    return item;
+}
+var testArr = [1,2,3,4,5]
 
 // 1:08:41​ Boolean Values
 /*Example*/
