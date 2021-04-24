@@ -132,7 +132,7 @@ var myStr = `'<a href="http://www.example.com" target="_blank>Link</a>'`;
  * \r carriage return
  * \t tab
  * \b backspace
- * \f form feed 
+ * \f form feed
  *****/
 var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"
 console.log(myStr);
@@ -333,6 +333,13 @@ function ourReusableFunction() {
     console.log("Heyya, World");
 }
 ourReusableFunction();
+ourReusableFunction();
+ourReusableFunction();
+
+function reusableFunction() {
+    console.log("Hi World");
+}
+reusableFunction();
 
 // 0:53:41​ Passing Values to Functions with Arguments
 /*Example*/
@@ -344,19 +351,47 @@ ourFunctionWithArgs(10, 5); //outputs 5
 function functionWithArgs(a, b) {
     console.log(a + b);
 }
-functionWithArgs(10, 5);
+functionWithArgs(10, 5); //output 15
 
 // 0:55:43​ Global Scope and Functions
-/*Example*/
-console.log();
 
-// 0:59:31​ Local Scope
-/*Example*/
-console.log();
+var myGlobal = 10; // Global scope
+
+function fun1() {
+    oopsGlobal = 5;
+}
+
+function fun2() {
+    var output = "";
+    if (typeof myGlobal != "undefined") {
+        output += "myGlobal: " + myGlobal;
+    }
+    if (typeof oopsGlobal != "undefined") {
+        output += "oopsGlobal: " + oopsGlobal;
+    }
+    console.log(output);
+}
+fun1();
+fun2();
+
+// 0:59:31​ Local Scope and Functions
+function myLocalScope() {
+    var myVar = 5; // Matoma tik sitoje funcijoje
+    console.log(myVar);
+}
+myLocalScope();
+
+console.log(myVar); //delete
 
 // 1:00:46​ Global vs Local Scope in Functions
-/*Example*/
-console.log();
+
+var outerWear = "T-Shirt"; /*Global variable*/
+function myOutfit() {
+    var outerWear = "sweater";
+    return outerWear;
+}
+console.log(myOutfit());
+console.log(outerWear);
 
 // 1:02:40​ Return a Value from a Function
 /*Example*/
